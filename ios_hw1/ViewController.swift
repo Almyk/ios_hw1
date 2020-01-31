@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func onExitPress(_ sender: Any) {
+        exit(0)
+    }
+    
+    @IBAction func onGithubPress(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://github.com/Almyk/ios_hw1")!, options: [:], completionHandler: nil)
+    }
 }
 

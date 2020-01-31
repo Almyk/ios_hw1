@@ -22,6 +22,9 @@
                                 <rect key="frame" x="100" y="699" width="214" height="46"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="GitHub"/>
+                                <connections>
+                                    <action selector="onGithubPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n2D-T1-0RD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi, my name is Tommy. I am a senior at Sogang University and I am majoring in Computer Science and Engineering." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46u-Hk-z6z">
                                 <rect key="frame" x="20" y="465" width="374" height="134"/>
@@ -33,6 +36,9 @@
                                 <rect key="frame" x="120" y="795" width="174" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Exit"/>
+                                <connections>
+                                    <action selector="onExitPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uFb-5E-gxN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
