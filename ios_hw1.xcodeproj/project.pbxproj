@@ -13,6 +13,7 @@
 		FD17037A23E438BD00D44832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17037823E438BD00D44832 /* Main.storyboard */; };
 		FD17037C23E438C400D44832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD17037B23E438C400D44832 /* Assets.xcassets */; };
 		FD17037F23E438C400D44832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17037D23E438C400D44832 /* LaunchScreen.storyboard */; };
+		FD9020AA23E44013008A77E4 /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD9020A923E44012008A77E4 /* me.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FD17037B23E438C400D44832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD17037E23E438C400D44832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD17038023E438C400D44832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9020A923E44012008A77E4 /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FD17037123E438BD00D44832 /* ios_hw1 */ = {
 			isa = PBXGroup;
 			children = (
+				FD9020A923E44012008A77E4 /* me.jpg */,
 				FD17037223E438BD00D44832 /* AppDelegate.swift */,
 				FD17037423E438BD00D44832 /* SceneDelegate.swift */,
 				FD17037623E438BD00D44832 /* ViewController.swift */,
@@ -128,6 +131,7 @@
 				FD17037F23E438C400D44832 /* LaunchScreen.storyboard in Resources */,
 				FD17037C23E438C400D44832 /* Assets.xcassets in Resources */,
 				FD17037A23E438BD00D44832 /* Main.storyboard in Resources */,
+				FD9020AA23E44013008A77E4 /* me.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "almyk.com.ios-hw1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "almyk.com.ios-hw1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
